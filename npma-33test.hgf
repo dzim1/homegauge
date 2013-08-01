@@ -10,7 +10,7 @@
 		<DefValue>*client.fullnames*</DefValue>
 	</Field>
 	<Field>
-		<FieldName>inspectionaddress</FieldName>
+		<FieldName>add</FieldName>
 		<Type>0</Type>
 	</Field>
 	<Field>
