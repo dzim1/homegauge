@@ -23,11 +23,11 @@
 		<Type>0</Type>
 	</Field>
 	<Field>
-		<FieldName>inspector</FieldName>
+		<FieldName>ins</FieldName>
 		<Type>0</Type>
 	</Field>
 	<Field>
-		<FieldName>ibizlic</FieldName>
+		<FieldName>lic</FieldName>
 		<Type>0</Type>
 	</Field>
 	<Field>
