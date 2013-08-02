@@ -70,4 +70,74 @@
 		<Type>0</Type>
 		<DefValue>*reportinfo.inspectorCompany*</DefValue>
 	</Field>
+
+<!-- Section II: Inspection Findings
+
+   :O C===8
+
+   :OC===8
+
+   :O===8
+
+   :O==8
+
+   :O=8
+
+   :O8
+
+   :3
+
+ -->
+	<Field>
+		<FieldName>NoVis</FieldName>
+		<Type></Type>
+		<DefValue>*reportinfo.NoVis*</DefValue>
+	</Field>
+	<Field>
+		<FieldName>Vis</FieldName>
+		<Type></Type>
+		<DefValue>*reportinfo.Vis*</DefValue>
+	</Field>
+	<Field>
+		<FieldName>liveInsectsCheck</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>liveInsects1</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>deadInsectsCheck</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>deadInsects1</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>visDamageCheck</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>visDamage1</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>treatedCheckYes</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>treatedCheckNo</FieldName>
+		<Type></Type>
+	</Field>
+	<Field>
+		<FieldName>treatmentEvidenceText</FieldName>
+		<Type></Type>
+	</Field>
+
+<!-- Section III: Recommendations -->
+	<Field>
+		<FieldName></FieldName>
+		<Type></Type>
+	</Field>
 </FormData>
