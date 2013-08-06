@@ -13,6 +13,7 @@
 		<FieldName>Date</FieldName>
 		<Type>2</Type>
 		<DefValue>*reportinfo.date*</DefValue>
+	</Field>
 	<Field>
 		<FieldName>Gen</FieldName>
 		<Type>0</Type>
