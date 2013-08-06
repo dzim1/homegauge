@@ -16,12 +16,12 @@
 	</Field>
 
 	<Field>
-		<FieldName>Gen</FieldName>
+		<FieldName>icompany</FieldName>
 		<Type>0</Type>
-		<DefValue>*Final Analysis, 5020 Ferrell Pkwy #205 VA Beach VA 22464, reportinfo.phone*</DefValue>
+		<DefValue>Final Analysis</DefValue>
 	</Field>
 	<Field>
-		<FieldName>add</FieldName>
+		<FieldName>inspectionaddress</FieldName>
 		<Type>0</Type>
 		<DefValue>*client.address1*</DefValue>
 	</Field>
@@ -78,9 +78,9 @@
 		<Type>11</Type>
 	</Field>
 	<Field>
-		<FieldName>icompany</FieldName>
+		<FieldName>icompany0</FieldName>
 		<Type>0</Type>
-		<DefValue>*reportinfo.inspectorCompany*</DefValue>
+		<DefValue>5020 Ferrell Pkwy #205 VA Beach VA 22464, *reportinfo.phone*</DefValue>
 	</Field>
 
 </FormData>
