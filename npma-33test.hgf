@@ -18,7 +18,7 @@
 	<Field>
 		<FieldName>Gen</FieldName>
 		<Type>0</Type>
-		<DefValue>*reportinfo.inspectionCompany*, *reportinfo.address*, reportinfo.phone*</DefValue>
+		<DefValue>*reportinfo.inspectionCompany*, 5020 Ferrell Pkwy #205 VA Beach VA 22464, reportinfo.phone*</DefValue>
 	</Field>
 	<Field>
 		<FieldName>add</FieldName>
