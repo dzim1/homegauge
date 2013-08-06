@@ -10,6 +10,10 @@
 		<DefValue>*client.fullnames*</DefValue>
 	</Field>
 	<Field>
+		<FieldName>Date</FieldName>
+		<Type>2</Type>
+		<DefValue>*reportinfo.date*</DefValue>
+	<Field>
 		<FieldName>Gen</FieldName>
 		<Type>0</Type>
 		<DefValue>*reportinfo.inspectionCompany*, *reportinfo.address*, reportinfo.phone*</DefValue>
