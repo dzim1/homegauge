@@ -29,19 +29,17 @@ var arrowImage = 'images/combo_select.gif';
     <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">Section I. General 
     Information</p>
     </b></font><font FACE="Helvetica" SIZE="1">
+   
     <p align="left" style="margin-top: 0; margin-bottom: 0">Inspection Company, 
     Address &amp; Phone</p>
     </font>
     <p style="margin-top: 0; margin-bottom: 0">
 
-<b>
-
-<font FACE="Helvetica" SIZE="2"><font FACE="Helvetica-Bold" SIZE="2">
-<input type="text" name="icompany" id="icompany0" style="width:350px;" size="20"></font></font></b></p>
+<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="icompany" id="icompany" class="editstyle" style="width:350px;" size="20"></b></font></p>
     <p style="margin-top: 0; margin-bottom: 0">
 
 <font FACE="Helvetica-Bold" SIZE="2"><b>
-    <input type="text" name="icompany" id="icompany" class="editstyle" style="width:350px;" size="20"></b></font></td>
+    <input type="text" name="icompany0" id="icompany0" class="editstyle" style="width:350px;" size="20"></b></font></td>
     <td height="38" width="182" colspan="2">
     <p style="margin-top: 0; margin-bottom: 0">
     <font FACE="Helvetica" style="font-size: 7pt">Company’s 
@@ -51,7 +49,7 @@ var arrowImage = 'images/combo_select.gif';
 <b>
 
     <font FACE="Helvetica-Bold" SIZE="2">
-    <input type="text" name="ibizlic" id="ibizlic" size="20" value="055056-7300"></font></b></td>
+    <input type="text" name="lic" id="lic" size="20" ></font></b></td>
     <td height="38" width="93">
     <font FACE="Helvetica" SIZE="1">Date of Inspection<font FACE="Helvetica-Bold" SIZE="2"><b><SPAN style="font-size:10.9pt; font-weight:normal; color:#000000"
 ><input class="datestyle" name="Date" type="text" id="Date" size="20"></SPAN
@@ -68,23 +66,10 @@ var arrowImage = 'images/combo_select.gif';
   <tr>
     <td colspan="2" height="23" width="396">
     <p align="left"><font FACE="Helvetica" SIZE="1">
-    Inspector’s Name, Signature &amp; Certification, Registration, or Lic. #</font>&nbsp;<p align="left" style="margin-top: 0; margin-bottom: 0">
-
-<b>
-
-<font FACE="Helvetica-Bold" SIZE="2">
-<input type="text" name="inspector" id="inspector" style="width:181" size="20"></font></b><font size="2">ASHI 
+    Inspector’s Name, Signature &amp; Certification, Registration, or Lic. #</font>&nbsp;<font size="2">ASHI 
     201-591</font></td>
-    <td colspan="2" height="23" width="315">
-    <p style="margin-top: 0; margin-bottom: 0"><font FACE="Helvetica" SIZE="1">
-    Structure(s) Inspected </font></p>
-    <p style="margin-top: 0; margin-bottom: 0">
-
-<b>
-
-    <font FACE="Helvetica-Bold" SIZE="2"><SPAN style="font-size:10.9pt; font-weight:normal; color:#000000"
-><input type="text" class="editstyle" name="structure" type="text" id="structure" size="20"></SPAN
-></font></b></td>
+    <td colspan="2" height="23" width="315"><font FACE="Helvetica" SIZE="1">
+    Structure(s) Inspected </font></td>
   </tr>
   <tr>
     <td width="711" style="border-style: solid; border-width: 3" colspan="4" height="23">
@@ -97,19 +82,35 @@ construed as a guarantee or warranty against latent, concealed, or future
 infestations or defects. </font><font FACE="Arial" SIZE="1"><b>Based on 
 a careful visual inspection of the readily accessible areas of the structure(s) inspected:</b></font></p>
 <font FACE="Arial" SIZE="2">
-<p ALIGN="LEFT"><b>A. </b></font><b><font FACE="Arial" SIZE="2">No visible</font></b><font FACE="Arial" SIZE="1"><b> </b></font>
+<p ALIGN="LEFT"><input type="checkbox" id= "NoVis" /><b>A. </b></font><b><font FACE="Arial" SIZE="2">No visible</font></b><font FACE="Arial" SIZE="1"><b> </b></font>
 <font FACE="Arial" SIZE="2">evidence of wood destroying insects was observed.</p>
-<p ALIGN="LEFT"><b>B.</b> <b>
+<p ALIGN="LEFT"><input type = "checkbox" id = Vis /><b>B.</b> <b>
 Visible</b></font><b><font FACE="Arial" SIZE="1"> </font> </b></font>
 
 <font FACE="Arial" SIZE="2">evidence 
 of wood destroying insects was observed as follows:</p>
-<p ALIGN="LEFT" style="margin-left: 10">1. Live insects (description and location):</p>
-<p ALIGN="LEFT" style="margin-left: 10">2. Dead insects, insect parts, frass, shelter tubes, exit holes, 
-or staining (description and location):</p>
-<p ALIGN="LEFT" style="margin-left: 10">3. <b>Visible </b>
+<p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "liveInsectsCheck" /> 1. Live insects (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="liveInsects1" id="liveInsects1" class="editstyle" style="width:500px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0"> 
+	 <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="liveInsects2" id="liveInsects2" class="editstyle" style="width:774px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0">
+	</p>
+<p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "deadInsectsCheck" /> 2. Dead insects, insect parts, frass, shelter tubes, exit holes, 
+or staining (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects1" id="visInsects1" class="editstyle" style="width:182px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0"> 
+	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects2" id="visInsects2" class="editstyle" style="width:774px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0">
+	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects3" id="visInsects3" class="editstyle" style="width:774px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0">
+	</p>
+<p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "visDamageCheck" />3. <b>Visible </b>
 damage from wood destroying insects was 
-noted as follows (description and location):</p>
+noted as follows (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visDamage1" id="visDamage1" class="editstyle" style="width:182px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0"> 
+	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visDamage2" id="visDamage2" class="editstyle" style="width:774px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0">
+	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visDamage3" id="visDamage3" class="editstyle" style="width:774px;" size="20"></b></font></p>
+    <p style="margin-top: 0; margin-bottom: 0">
+	</p> </p>
 </font>
 <b>
 
