@@ -29,17 +29,19 @@ var arrowImage = 'images/combo_select.gif';
     <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">Section I. General 
     Information</p>
     </b></font><font FACE="Helvetica" SIZE="1">
-   
     <p align="left" style="margin-top: 0; margin-bottom: 0">Inspection Company, 
     Address &amp; Phone</p>
     </font>
     <p style="margin-top: 0; margin-bottom: 0">
 
-<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="icompany" id="icompany" class="editstyle" style="width:350px;" size="20"></b></font></p>
+<b>
+
+<font FACE="Helvetica" SIZE="2"><font FACE="Helvetica-Bold" SIZE="2">
+<input type="text" name="icompany" id="icompany0" style="width:350px;" size="20"></font></font></b></p>
     <p style="margin-top: 0; margin-bottom: 0">
 
 <font FACE="Helvetica-Bold" SIZE="2"><b>
-    <input type="text" name="icompany0" id="icompany0" class="editstyle" style="width:350px;" size="20"></b></font></td>
+    <input type="text" name="icompany" id="icompany" class="editstyle" style="width:350px;" size="20"></b></font></td>
     <td height="38" width="182" colspan="2">
     <p style="margin-top: 0; margin-bottom: 0">
     <font FACE="Helvetica" style="font-size: 7pt">Company’s 
@@ -49,7 +51,7 @@ var arrowImage = 'images/combo_select.gif';
 <b>
 
     <font FACE="Helvetica-Bold" SIZE="2">
-    <input type="text" name="lic" id="lic" size="20" ></font></b></td>
+    <input type="text" name="ibizlic" id="ibizlic" size="20" value="055056-7300"></font></b></td>
     <td height="38" width="93">
     <font FACE="Helvetica" SIZE="1">Date of Inspection<font FACE="Helvetica-Bold" SIZE="2"><b><SPAN style="font-size:10.9pt; font-weight:normal; color:#000000"
 ><input class="datestyle" name="Date" type="text" id="Date" size="20"></SPAN
@@ -66,10 +68,23 @@ var arrowImage = 'images/combo_select.gif';
   <tr>
     <td colspan="2" height="23" width="396">
     <p align="left"><font FACE="Helvetica" SIZE="1">
-    Inspector’s Name, Signature &amp; Certification, Registration, or Lic. #</font>&nbsp;<font size="2">ASHI 
+    Inspector’s Name, Signature &amp; Certification, Registration, or Lic. #</font>&nbsp;<p align="left" style="margin-top: 0; margin-bottom: 0">
+
+<b>
+
+<font FACE="Helvetica-Bold" SIZE="2">
+<input type="text" name="inspector" id="inspector" style="width:181" size="20"></font></b><font size="2">ASHI 
     201-591</font></td>
-    <td colspan="2" height="23" width="315"><font FACE="Helvetica" SIZE="1">
-    Structure(s) Inspected </font></td>
+    <td colspan="2" height="23" width="315">
+    <p style="margin-top: 0; margin-bottom: 0"><font FACE="Helvetica" SIZE="1">
+    Structure(s) Inspected </font></p>
+    <p style="margin-top: 0; margin-bottom: 0">
+
+<b>
+
+    <font FACE="Helvetica-Bold" SIZE="2"><SPAN style="font-size:10.9pt; font-weight:normal; color:#000000"
+><input type="text" class="editstyle" name="structure" type="text" id="structure" size="20"></SPAN
+></font></b></td>
   </tr>
   <tr>
     <td width="711" style="border-style: solid; border-width: 3" colspan="4" height="23">
@@ -82,35 +97,19 @@ construed as a guarantee or warranty against latent, concealed, or future
 infestations or defects. </font><font FACE="Arial" SIZE="1"><b>Based on 
 a careful visual inspection of the readily accessible areas of the structure(s) inspected:</b></font></p>
 <font FACE="Arial" SIZE="2">
-<p ALIGN="LEFT"><input type="checkbox" id= "NoVis" /><b>A. </b></font><b><font FACE="Arial" SIZE="2">No visible</font></b><font FACE="Arial" SIZE="1"><b> </b></font>
+<p ALIGN="LEFT"><b>A. </b></font><b><font FACE="Arial" SIZE="2">No visible</font></b><font FACE="Arial" SIZE="1"><b> </b></font>
 <font FACE="Arial" SIZE="2">evidence of wood destroying insects was observed.</p>
-<p ALIGN="LEFT"><input type = "checkbox" id = Vis /><b>B.</b> <b>
+<p ALIGN="LEFT"><b>B.</b> <b>
 Visible</b></font><b><font FACE="Arial" SIZE="1"> </font> </b></font>
 
 <font FACE="Arial" SIZE="2">evidence 
 of wood destroying insects was observed as follows:</p>
-<p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "liveInsectsCheck" /> 1. Live insects (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="liveInsects1" id="liveInsects1" class="editstyle" style="width:500px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0"> 
-	 <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="liveInsects2" id="liveInsects2" class="editstyle" style="width:774px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0">
-	</p>
-<p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "deadInsectsCheck" /> 2. Dead insects, insect parts, frass, shelter tubes, exit holes, 
-or staining (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects1" id="visInsects1" class="editstyle" style="width:182px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0"> 
-	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects2" id="visInsects2" class="editstyle" style="width:774px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0">
-	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects3" id="visInsects3" class="editstyle" style="width:774px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0">
-	</p> </p>
-<p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "visDamageCheck" />3. <b>Visible </b>
+<p ALIGN="LEFT" style="margin-left: 10">1. Live insects (description and location):</p>
+<p ALIGN="LEFT" style="margin-left: 10">2. Dead insects, insect parts, frass, shelter tubes, exit holes, 
+or staining (description and location):</p>
+<p ALIGN="LEFT" style="margin-left: 10">3. <b>Visible </b>
 damage from wood destroying insects was 
-noted as follows (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visDamage1" id="visDamage1" class="editstyle" style="width:182px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0"> 
-	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visDamage2" id="visDamage2" class="editstyle" style="width:774px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0">
-	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visDamage3" id="visDamage3" class="editstyle" style="width:774px;" size="20"></b></font></p>
-    <p style="margin-top: 0; margin-bottom: 0">
-	</p> </p>
+noted as follows (description and location):</p>
 </font>
 <b>
 
@@ -124,7 +123,7 @@ questions arise regarding damage indicated by this report, it is recommended
 that the buyer or any interested parties contact a qualified structural professional to determine the extent of damage and the need for 
 repairs.</p>
 </font><font FACE="Arial" SIZE="2">
-<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0"> Yes 
+<p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">Yes 
 </font>
 
 <font FACE="Helvetica-Bold" SIZE="2"><b>
@@ -172,54 +171,166 @@ in place.</b></p>
   </tr>
   <tr>
     <td width="711" style="border-style: solid; border-width: 3" colspan="4" height="23">
-    <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellpadding="0" id="AutoNumber2" height="185">
+    <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellpadding="0" id="AutoNumber2" height="183">
       <tr>
-        <td width="59%" style="border-left-width: 1; border-right-style: solid; border-right-width: 1; border-top-width: 1; border-bottom-width: 1" height="32">
+        <td width="59%" style="border-left-width: 1; border-right-style: solid; border-right-width: 1; border-top-width: 1; border-bottom-width: 1" height="30">
         <font FACE="Arial" SIZE="2"><b>
         <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">Section IV. 
         Obstructions and Inaccessible Areas</b></font></p>
-        	
-        <p class="s3" style="padding-left: 17pt;padding-right: 1pt;text-indent: 0pt;line-height: 119%;text-align: justify;">
-<<<<<<< HEAD
-=======
-		<input type = "checkbox" id = "BasementCheck"> Basement
-		<input type = "checkbox" id = "IVCrawlCheck"> Crawlspace
-		<input type = "checkbox" id = "IVMainCheck"> Main Level 
-		<input type = "checkbox" id = "IVAtticCheck"> Attic 
-		<input type = "checkbox" id = "IVGarageCheck"> Garage 
-		<input type = "checkbox" id = "IVExteriorCheck"> Exterior 
-		<input type = "checkbox" id = "IVPorchCheck"> Porch 
-		<input type = "checkbox" id = "IVAdditionCheck"> Addition 
-		<input type = "checkbox" id = "IVOtherCheck"> Other
-		</p>
         <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">
         <font FACE="Arial" size="1">The following areas of the structure(s) 
-        inspected were obstructed or inaccessible:</font>
-		</td>
+        inspected were obstructed or inaccessible:</font></td>
+        <td width="41%" colspan="2" height="30"><font FACE="Arial" size="2">
+        <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0"><b>The inspector 
+        may write out obstructions</b></p>
+        <p style="margin-top: 0; margin-bottom: 0"><b>or use the following 
+        optional key:</b></font></td>
       </tr>
-<<<<<<< HEAD
-	 
-=======
->>>>>>> 9dffdf0cdeea0b394fc6303e0aed43922583b48e
->>>>>>> d7351879cbeb6ed78f68d0abc00819be21006a6f
       <tr>
-       <td> <font FACE="Arial" size="1">The following areas of the structure(s) 
-        inspected were obstructed or inaccessible:<td></tr>
-<tr><td>
-<!--
-<input type = "checkbox" id = "BasementCheck"> Basement </p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVCrawlCheck"> Crawlspace</p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVMainCheck"> Main Level </p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVAtticCheck"> Attic </p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVGarageCheck"> Garage </p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVExteriorCheck"> Exterior </p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVPorchCheck"> Porch </p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVAdditionCheck"> Addition </p>
-<p ALIGN="LEFT" style-"margin-top: 0; margin-bottom: 0"><input type = "checkbox" id = "IVOtherCheck"> Other </p>
-		</p></font>
--->    
-    <td width="20%" height="25" align="left" valign="top">
-        <font FACE="Helvetica" size="1">
+        <td width="59%" style="border-left-width: 1; border-right-style: solid; border-right-width: 1; border-top-width: 1; border-bottom-width: 1" height="153">
+        <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" cellpadding="0" id="AutoNumber4">
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+  </font>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Basement</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+<font FACE="Helvetica-Bold" SIZE="2">
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Crawlspace</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Main level</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Attic</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Garage</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Exterior</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Porch</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Addition</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+  </font>
+
+          <tr>
+            <td width="7%" align="center">
+
+<b>
+
+            <font FACE="Helvetica" SIZE="1">
+    <input type="checkbox" name="C1" value="ON"></font></b></td>
+
+<font FACE="Arial" SIZE="2">
+            <td width="17%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1">
+            Other</td>
+            <td width="169%" style="border-left-width: 1; border-right-width: 1; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+          </tr>
+        </table>
+        </td>
+  </font>
+
+<font FACE="Helvetica-Bold" SIZE="2">
+        <td width="20%" height="153" align="left" valign="top">
+        <font FACE="Helvetica" size="2">
         <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">1. Fixed ceiling&nbsp;
         </p>
         <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">2. Suspended 
@@ -240,7 +351,7 @@ in place.</b></p>
         access</p>
         <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">12. No access 
         beneath</font></td>
-        <td width="20%" height="15"><font FACE="Helvetica" size="1">
+        <td width="21%" height="153"><font FACE="Helvetica" size="2">
         <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">13. Only visual 
         access</p>
         <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">14. Cluttered 
@@ -277,6 +388,8 @@ in place.</b></p>
 
 <font FACE="Arial" SIZE="1">Attachments:</td>
   </tr>
+  </font>
+
   </font>
 
 <font FACE="Helvetica-Bold" SIZE="2">
