@@ -92,11 +92,11 @@ of wood destroying insects was observed as follows:</p>
 <p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "liveInsectsCheck" /> 1. Live insects (description and location): <font FACE="Helvetica-Bold" SIZE="1"><input type="text" name="liveInsects1" id="liveInsects1" class="editstyle" style="width:500px;" size="20" /></font></p>
 	 <font FACE="Helvetica-Bold" SIZE="2"><input type="text" name="liveInsects2" id="liveInsects2" class="editstyle" style="width:774px;" size="20"></font>
 <p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "deadInsectsCheck" /> 2. Dead insects, insect parts, frass, shelter tubes, exit holes, 
-or staining (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects1" id="visInsects1" class="editstyle" style="width:182px;" size="20"></b></font></p>
+or staining (description and location): <font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="deadInsects1" id="deadInsects1" class="editstyle" style="width:182px;" size="20"></b></font></p>
     <p style="margin-top: 0; margin-bottom: 0"> 
-	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects2" id="visInsects2" class="editstyle" style="width:774px;" size="20"></b></font></p>
+	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="deadInsects2" id="deadInsects2" class="editstyle" style="width:774px;" size="20"></b></font></p>
     <p style="margin-top: 0; margin-bottom: 0">
-	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="visInsects3" id="visInsects3" class="editstyle" style="width:774px;" size="20"></b></font></p>
+	<font FACE="Helvetica-Bold" SIZE="2"><b><input type="text" name="deadInsects3" id="deadInsects3" class="editstyle" style="width:774px;" size="20"></b></font></p>
     <p style="margin-top: 0; margin-bottom: 0">
 	</p>
 <p ALIGN="LEFT" style="margin-left: 10"><input type ="checkbox" id = "visDamageCheck" />3. <b>Visible </b>
@@ -136,9 +136,11 @@ repairs.</p>
 </font></font>
 
 <font FACE="Arial" SIZE="2">It appears that the structure(s) or a portion thereof may 
-have been previously treated. Visible evidence of possible previous treatment:</p>
-<hr noshade color="#000000" width="95%" size="1"></font>
+have been previously treated. Visible evidence of possible previous treatment:
+<input type=textbox id=treatmentEvidenceText name=treatmentEvidenceText style="width: 355px" /><font></p>
 
+<font FACE="Helvetica" SIZE="1">
+</font>
 <font FACE="Helvetica-Bold"><font FACE="Arial" SIZE="1">
 <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0"><b>The inspecting company can give no assurances with regard to 
 work done by other companies. The company that performed the treatment should be 
@@ -152,19 +154,12 @@ in place.</b></p>
     </b></font><font FACE="Helvetica" SIZE="1">
     <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0"><b>
     <input type="checkbox" name="C1" value="ON"></b></font></font><font FACE="Arial" SIZE="1">No 
-    treatment recommended: (Explain if Box B in Section II is checked)</font><font FACE="Helvetica-Bold" SIZE="2"><font FACE="Helvetica" SIZE="1">&nbsp; 
-    __________________________________________________________</p>
-    <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-    <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">
-    ______________________________________________________________________________________________________________________</p>
+    treatment recommended: (Explain if Box B in Section II is checked)</font><font FACE="Helvetica-Bold" SIZE="2"><font FACE="Helvetica" SIZE="1"> <input type=textbox id=noTreatExp1 name=noTreatExp1 style="width: 355px" /><font></p>
+    <input type=textbox id=noTreatExp2 name=noTreatExp2 style="width: 455px" /><font></p>
     <p ALIGN="LEFT" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
     <p style="margin-top: 0; margin-bottom: 0"><b>
     <input type="checkbox" name="C1" value="ON"></b></font></font><font FACE="Arial" SIZE="1">Recommend 
-    treatment for the control of:</font><font FACE="Helvetica-Bold" SIZE="2"><font FACE="Helvetica" SIZE="1">&nbsp; 
-    __________________________________________________________________________________</p>
-    <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-    <p style="margin-top: 0">
-    ______________________________________________________________________________________________________________________</font></td>
+    treatment for the control of:</font><input type=textbox id=recTreatExp1 name=recTreatExp1 style="width: 355px" /><font></p><input type=textbox id=recTreatExp2 name=recTreatExp2 style="width: 355px" /><font></p></td>
   </tr></td>
   </tr>
   <tr>
